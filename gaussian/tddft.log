@@ -2,7 +2,7 @@
  Input=tddft.com
  Output=tddft.log
  Initial command:
- /g16/l1.exe "/Gau-348183.inp" -scrdir="/scratch/vbh226/triptycene/ant/mono/tddfttoluene/"
+ /g16/l1.exe "/Gau-348183.inp" -scrdir="/tddfttoluene/"
  Entering Link 1 = /g16/l1.exe PID=    348184.
   
  Copyright (c) 1988,1990,1992,1993,1995,1998,2003,2009,2016,
