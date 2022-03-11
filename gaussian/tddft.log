@@ -2,8 +2,8 @@
  Input=tddft.com
  Output=tddft.log
  Initial command:
- /opt/ohpc/pub/libs/gaussian/g16-A.03/sandybridge/g16/l1.exe "/scratch/vbh226/triptycene/ant/mono/tddfttoluene/Gau-348183.inp" -scrdir="/scratch/vbh226/triptycene/ant/mono/tddfttoluene/"
- Entering Link 1 = /opt/ohpc/pub/libs/gaussian/g16-A.03/sandybridge/g16/l1.exe PID=    348184.
+ /g16/l1.exe "/Gau-348183.inp" -scrdir="/scratch/vbh226/triptycene/ant/mono/tddfttoluene/"
+ Entering Link 1 = /g16/l1.exe PID=    348184.
   
  Copyright (c) 1988,1990,1992,1993,1995,1998,2003,2009,2016,
             Gaussian, Inc.  All Rights Reserved.
@@ -97,7 +97,7 @@
  6/7=2,8=2,9=2,10=2/1;
  99/5=1,9=1/99;
  Leave Link    1 at Tue Jan 18 09:47:54 2022, MaxMem=  6442450944 cpu:              20.2 elap:               0.7
- (Enter /opt/ohpc/pub/libs/gaussian/g16-A.03/sandybridge/g16/l101.exe)
+ (Enter /g16/l101.exe)
  -----------
  Si2 H26 C24
  -----------
@@ -222,7 +222,7 @@
  NMagM=    2.7928460   2.7928460
  AtZNuc=   1.0000000   1.0000000
  Leave Link  101 at Tue Jan 18 09:47:54 2022, MaxMem=  6442450944 cpu:               5.0 elap:               0.2
- (Enter /opt/ohpc/pub/libs/gaussian/g16-A.03/sandybridge/g16/l202.exe)
+ (Enter /g16/l202.exe)
  Stoichiometry    C24H26Si2
  Framework group  C1[X(C24H26Si2)]
  Deg. of freedom   150
@@ -289,7 +289,7 @@
  ---------------------------------------------------------------------
  Rotational constants (GHZ):           0.3607755           0.0764737           0.0656801
  Leave Link  202 at Tue Jan 18 09:47:54 2022, MaxMem=  6442450944 cpu:               1.1 elap:               0.1
- (Enter /opt/ohpc/pub/libs/gaussian/g16-A.03/sandybridge/g16/l301.exe)
+ (Enter /g16/l301.exe)
  Standard basis: def2SVP (5D, 7F)
  Ernie: Thresh=  0.10000D-02 Tol=  0.10000D-05 Strict=F.
  There are   528 symmetry adapted cartesian basis functions of A   symmetry.
@@ -337,7 +337,7 @@
  GePol: Cavity surface area                          =    526.419 Ang**2
  GePol: Cavity volume                                =    560.237 Ang**3
  Leave Link  301 at Tue Jan 18 09:47:54 2022, MaxMem=  6442450944 cpu:               2.5 elap:               0.1
- (Enter /opt/ohpc/pub/libs/gaussian/g16-A.03/sandybridge/g16/l302.exe)
+ (Enter /g16/l302.exe)
  NPDir=0 NMtPBC=     1 NCelOv=     1 NCel=       1 NClECP=     1 NCelD=      1
          NCelK=      1 NCelE2=     1 NClLst=     1 CellRange=     0.0.
  One-electron integrals computed using PRISM.
@@ -352,12 +352,12 @@
  Generated NRdTot=       0 NPtTot=           0 NUsed=           0 NTot=          32
  NSgBfM=   508   508   508   508   508 MxSgAt=    52 MxSgA2=    52.
  Leave Link  302 at Tue Jan 18 09:47:55 2022, MaxMem=  6442450944 cpu:              24.3 elap:               0.8
- (Enter /opt/ohpc/pub/libs/gaussian/g16-A.03/sandybridge/g16/l303.exe)
+ (Enter /g16/l303.exe)
  DipDrv:  MaxL=1.
  Leave Link  303 at Tue Jan 18 09:47:55 2022, MaxMem=  6442450944 cpu:               2.3 elap:               0.1
- (Enter /opt/ohpc/pub/libs/gaussian/g16-A.03/sandybridge/g16/l308.exe)
+ (Enter /g16/l308.exe)
  Leave Link  308 at Tue Jan 18 09:47:55 2022, MaxMem=  6442450944 cpu:               6.3 elap:               0.3
- (Enter /opt/ohpc/pub/libs/gaussian/g16-A.03/sandybridge/g16/l401.exe)
+ (Enter /g16/l401.exe)
  ExpMin= 7.80D-02 ExpMax= 6.90D+03 ExpMxC= 1.04D+03 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
  Harris functional with IExCor=33909 and IRadAn=       5 diagonalized for initial guess.
  HarFok:  IExCor=33909 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
@@ -370,7 +370,7 @@
  Harris En= -1405.27044918076    
  JPrj=0 DoOrth=F DoCkMO=F.
  Leave Link  401 at Tue Jan 18 09:47:57 2022, MaxMem=  6442450944 cpu:              57.0 elap:               1.8
- (Enter /opt/ohpc/pub/libs/gaussian/g16-A.03/sandybridge/g16/l502.exe)
+ (Enter /g16/l502.exe)
  Integral symmetry usage will be decided dynamically.
  Closed shell SCF:
  Using DIIS extrapolation, IDIIS=  1040.
@@ -623,7 +623,7 @@
             NFock= 15  Conv=0.28D-08     -V/T= 2.0083
  KE= 1.495382049387D+03 PE=-8.178815730717D+03 EE= 2.848276195506D+03
  Leave Link  502 at Tue Jan 18 09:49:44 2022, MaxMem=  6442450944 cpu:            3274.3 elap:             106.9
- (Enter /opt/ohpc/pub/libs/gaussian/g16-A.03/sandybridge/g16/l801.exe)
+ (Enter /g16/l801.exe)
  DoSCS=F DFT=T ScalE2(SS,OS)=  1.000000  1.000000
  ExpMin= 7.80D-02 ExpMax= 6.90D+03 ExpMxC= 1.04D+03 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
  HarFok:  IExCor=  205 AccDes= 0.00D+00 IRadAn=         5 IDoV=-2 UseB2=F ITyADJ=14
@@ -638,7 +638,7 @@
  **** Warning!!: The largest alpha MO coefficient is  0.22181169D+02
 
  Leave Link  801 at Tue Jan 18 09:49:44 2022, MaxMem=  6442450944 cpu:               4.7 elap:               0.2
- (Enter /opt/ohpc/pub/libs/gaussian/g16-A.03/sandybridge/g16/l914.exe)
+ (Enter /g16/l914.exe)
  RHF ground state
  Two-electron integrals replicated using symmetry.
  MDV=  6442450944 DFT=T DoStab=F Mixed=T DoRPA=T DoScal=F NonHer=T
@@ -1243,7 +1243,7 @@
       98 ->101         0.22412
  SavETr:  write IOETrn=   770 NScale= 10 NData=  16 NLR=1 NState=   15 LETran=     280.
  Leave Link  914 at Tue Jan 18 09:55:16 2022, MaxMem=  6442450944 cpu:           10462.2 elap:             332.1
- (Enter /opt/ohpc/pub/libs/gaussian/g16-A.03/sandybridge/g16/l601.exe)
+ (Enter /g16/l601.exe)
  Copying SCF densities to generalized density rwf, IOpCl= 0 IROHF=0.
 
  **********************************************************************
@@ -1503,7 +1503,7 @@
  XXYZ=             -0.0293 YYXZ=              0.1978 ZZXY=            -45.5469
  N-N= 2.327397802010D+03 E-N=-8.178815730676D+03  KE= 1.495382049387D+03
  Leave Link  601 at Tue Jan 18 09:55:17 2022, MaxMem=  6442450944 cpu:               7.4 elap:               0.3
- (Enter /opt/ohpc/pub/libs/gaussian/g16-A.03/sandybridge/g16/l9999.exe)
+ (Enter /g16/l9999.exe)
  Electronic transition elements 
                  1             2             3             4             5 
       1  -0.150763D+04 -0.150759D+04 -0.150756D+04 -0.150756D+04 -0.150756D+04
